@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.CampaignModule.Domain", "Hepsiburada.CampaignModule.Domain\Hepsiburada.CampaignModule.Domain.csproj", "{F34DA0D6-1491-471B-A151-05597A0CF9E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.CampaignModule.Application", "Hepsiburada.CampaignModule.Application\Hepsiburada.CampaignModule.Application.csproj", "{029FA5AA-5B37-4385-AB35-3F2B1BC622F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsiburada.CampaignModule.Presentation", "Hepsiburada.CampaignModule.Presentation\Hepsiburada.CampaignModule.Presentation.csproj", "{01DCBA3C-9CE0-4DD7-B27B-E7F24632B21D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hepsiburada.CampaignModule.Test", "Hepsiburada.CampaignModule.Test", "{9E722A2E-B17E-49C3-AE70-555C40AA25FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsiburada.CampaignModule.Application.Tests", "Hepsiburada.CampaignModule.Application.Tests\Hepsiburada.CampaignModule.Application.Tests.csproj", "{7630EEF8-FCCE-4D3A-8F9D-C3E20A26EC3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsiburada.CampaignModule.Domain.Tests", "Hepsiburada.CampaignModule.Domain.Tests\Hepsiburada.CampaignModule.Domain.Tests.csproj", "{12A91AED-CDBC-49FE-8958-CCD7A1AEFE85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34DA0D6-1491-471B-A151-05597A0CF9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34DA0D6-1491-471B-A151-05597A0CF9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34DA0D6-1491-471B-A151-05597A0CF9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34DA0D6-1491-471B-A151-05597A0CF9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029FA5AA-5B37-4385-AB35-3F2B1BC622F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029FA5AA-5B37-4385-AB35-3F2B1BC622F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029FA5AA-5B37-4385-AB35-3F2B1BC622F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029FA5AA-5B37-4385-AB35-3F2B1BC622F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DCBA3C-9CE0-4DD7-B27B-E7F24632B21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DCBA3C-9CE0-4DD7-B27B-E7F24632B21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DCBA3C-9CE0-4DD7-B27B-E7F24632B21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DCBA3C-9CE0-4DD7-B27B-E7F24632B21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7630EEF8-FCCE-4D3A-8F9D-C3E20A26EC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7630EEF8-FCCE-4D3A-8F9D-C3E20A26EC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7630EEF8-FCCE-4D3A-8F9D-C3E20A26EC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7630EEF8-FCCE-4D3A-8F9D-C3E20A26EC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A91AED-CDBC-49FE-8958-CCD7A1AEFE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A91AED-CDBC-49FE-8958-CCD7A1AEFE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A91AED-CDBC-49FE-8958-CCD7A1AEFE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A91AED-CDBC-49FE-8958-CCD7A1AEFE85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7630EEF8-FCCE-4D3A-8F9D-C3E20A26EC3A} = {9E722A2E-B17E-49C3-AE70-555C40AA25FE}
+		{12A91AED-CDBC-49FE-8958-CCD7A1AEFE85} = {9E722A2E-B17E-49C3-AE70-555C40AA25FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FDB3156-F1BB-44BB-981E-1A8D96998936}
+	EndGlobalSection
+EndGlobal
